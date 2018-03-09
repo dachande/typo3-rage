@@ -1,0 +1,3 @@
+# TYPO3 Rage Website Template
+
+coming soon...
