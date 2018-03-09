@@ -1,0 +1,28 @@
+{
+	"name": "dachande/typo3-rage",
+	"description": "TYPO3 Rage Website Template",
+	"type": "typo3-cms-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Daniel Schultheis",
+			"email": "d.schultheis@kabel-salat-net"
+		}
+	],
+	"require": {
+		"typo3/cms-core": "^8.7",
+	},
+	"replace": {
+		"rage": "self.version"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "rage"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Dachande\\Rage\\": "Classes/"
+		}
+	}
+}
